@@ -29,10 +29,10 @@ else:
 
 # If user chose red, initiate the countdown
 if selected_color == "Red":
-    time.sleep(0)  # 15 minutes countdown
+    time.sleep(900)  # 15 minutes countdown
     print("A red light appears in your house... You feel a sense of dread creeping in. Press Enter to continue...")
     input()
-    time.sleep(0)  # 2 hours countdown
+    time.sleep(7200)  # 2 hours countdown
     print("You hear strange noises, and suddenly, a dark entity emerges from the shadows... Press Enter to continue...")
     input()
     print("It's too late. You're completely fucked. Press Enter to continue...")
