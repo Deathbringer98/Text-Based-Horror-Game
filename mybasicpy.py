@@ -44,3 +44,9 @@ if selected_color == "Red":
     print("Time's running out. Open the link to the x paranormal page on 4chan now! Press Enter to continue...")
     input()
     webbrowser.open("https://boards.4chan.org/x/")
+        input ()"Would you like to play again? (y/n): ", cont
+    if cont.lower() == 'y':
+        os.system('python chalkgame.py')
+    elif cont.lower() == 'n':
+        print ("Goodbye.")
+
